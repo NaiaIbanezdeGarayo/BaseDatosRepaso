@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="jardineria_oracle_corregido" id="3B3B739E-91A3-D870-6968-386011170B87" mainViewID="6E235B6D-F36D-9024-84C8-771CC994B701">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>jardineria_oracle_corregido.sql</fileName>
+<pathName>C:\Users\1gdaw06.ARRIAGAINFO\Desktop\BASE DE DATOS\BaseDatosRepaso</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

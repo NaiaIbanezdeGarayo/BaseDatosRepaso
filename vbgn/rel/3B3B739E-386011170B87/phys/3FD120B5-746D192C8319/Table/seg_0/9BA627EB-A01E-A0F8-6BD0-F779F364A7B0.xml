@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GamasProductos" directorySegmentName="seg_0" id="9BA627EB-A01E-A0F8-6BD0-F779F364A7B0">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DescripcionHTML" id="1A268528-4413-606E-357B-5DB1CC8B7737">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DescripcionTexto" id="9A1EAA36-0506-EEC6-1B94-1FC4AE3B9BF3">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Imagen" id="9F9943E3-0EFB-C68F-2048-87ECDB9C0384">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gama" id="FFA0FD83-1E71-0678-9403-66CC21DEB25E">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GProdu_Cod_PK" id="84D60699-E180-215F-611B-38F8FA41A1BD">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

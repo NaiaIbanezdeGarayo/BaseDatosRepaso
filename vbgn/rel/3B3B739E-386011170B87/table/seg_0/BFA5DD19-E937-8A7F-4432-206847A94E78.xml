@@ -1,0 +1,242 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFA5DD19-E937-8A7F-4432-206847A94E78" name="Clientes">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>50830A7C-3969-2222-962C-E5B439BA3D74</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoCliente" id="1FAC4F67-7786-CCC2-E409-3BF4FDF21A20">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>496B0FD2-F8FE-CBE9-5A1A-F706FA5F8D10</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B5CF0977-68DD-9F11-F4C8-A48B225E3C99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreCliente" id="6EF47D5E-BAE0-DEAA-B522-9CF9E5E7AE63">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>C530528E-E64E-C04A-A48B-A948350F75A5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreContacto" id="ECC16532-CBFD-3551-A40E-4A2EF9FFF6EB">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>A55C0240-179A-AB5F-9B81-503EB0D79B8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE846DFD-7B15-79C2-B57B-4B7DBCD3AFF5</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ApellidoContacto" id="8BCB882F-F3B0-6819-2DD7-4E1680801758">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>0344293C-B626-AB56-A576-B7C08B14839E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE846DFD-7B15-79C2-B57B-4B7DBCD3AFF5</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="779A6D82-E1B8-9060-C4F9-B87E5A9016B4">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>6DCEB3C0-EF25-3212-11A9-72CA54ACD591</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B3C424F-08C4-2B24-7AF5-14C63CA16CCA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fax" id="9B3180D9-1070-51CC-E489-2B9BFCE401B0">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>895781A4-4EC9-C02C-ADB8-A1AF2F96F18E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B3C424F-08C4-2B24-7AF5-14C63CA16CCA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LineaDireccion1" id="122E1689-2426-7400-7A72-64E181600382">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>19ED6E03-B974-E419-EBC8-7243CFB46F25</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LineaDireccion2" id="A519D446-0457-7CC2-ECAA-B0CDBD2861CB">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>2F5B3D3A-9750-2027-BD44-3A8FA7677B27</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="2C8BA784-6B59-1A8F-35BB-130BCFCE1F09">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>8D638C9A-B2AF-D7DF-AF1E-F1A589D37C77</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region" id="FB8281AD-4BB1-E647-0F6A-6C01F0702D7E">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>1F03AE17-1588-9B80-7329-DB7D766D1831</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais" id="4E68C731-6C5F-7269-CB18-BD4092C1C63C">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>6CD05739-DB2D-0D9A-7CD9-8B8C0ABA481B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoPostal" id="EF2708D3-C5F9-A3E7-372C-0D25B2293327">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>19FD787A-6D3F-4915-EE2B-89159F37EDF1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF9D7070-09B7-889A-C9CF-C70B0E4C168E</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodigoEmpleadoRepVentas" id="79D4B6CB-E9C4-8D29-420A-A386B9ABC479">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>554A5399-6ED3-5981-F885-B79989185EA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>B5CF0977-68DD-9F11-F4C8-A48B225E3C99</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A773B363-F811-71D8-B860-4775AF3AB248" referredColumn="FEF9FFAB-D3AD-A8F5-7B9B-4CEE9051FB67"/>
+</associations>
+</Column>
+<Column name="LimiteCredito" id="4005A1D7-2FB8-A172-FF74-DAA5776110CE">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>43ADCD19-6B85-2C6D-D303-0610702EDFBC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BDB7C2B4-7FF2-11F2-1348-9CB031909F78</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3BF75AB-6821-3C16-22CC-6E37942CDC7D" name="Clientes_Cod_PK">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>81CDA8AC-B970-0EEC-B6C9-A9897DAA1E59</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FAC4F67-7786-CCC2-E409-3BF4FDF21A20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FAA06C1-C2EE-1C8B-7E73-A1CC09973D49" name="Clientes_Empleados_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D4B6CB-E9C4-8D29-420A-A386B9ABC479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

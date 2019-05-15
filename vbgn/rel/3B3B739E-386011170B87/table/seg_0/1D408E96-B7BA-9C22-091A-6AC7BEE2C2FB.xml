@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D408E96-B7BA-9C22-091A-6AC7BEE2C2FB" name="Productos">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>AE38094B-5756-2548-AC9E-4D15786AE61E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoProducto" id="24865A69-5003-38BC-9A90-600B87BB5413">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>C4B840BA-9C0F-6DD3-3719-006346C7E750</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1B3C424F-08C4-2B24-7AF5-14C63CA16CCA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="CF23F8A9-D5C2-688A-B410-2778211EBD3D">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>1F35DCB4-8D37-3B15-56F1-0CFB81E7D119</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>570FADEB-40D4-0B71-82CE-7FCC252FD823</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gama" id="94469651-D790-DB09-8AA0-FA1A204AC131">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>C3426BCC-0843-DA2A-7E7D-00009ECA40A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71707434-35FA-5FF2-757C-1C58AFAE0894" referredColumn="FFA0FD83-1E71-0678-9403-66CC21DEB25E"/>
+</associations>
+</Column>
+<Column name="Dimensiones" id="44DA63B4-05C0-FBF8-F7C8-2C0D471F5966">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>520354F1-F29D-8789-E268-ED2B04242BA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E386917-6EC6-2086-7EA8-AE4811700442</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor" id="B7EDADDF-EC3A-2FEE-A522-0207D8D22C15">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>9C793BEC-3483-B092-E3F4-133ACABE0001</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D762E06F-774D-07A3-3841-2A05E2246D6E</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="5EE9AFD5-2E67-00A4-725E-E277C6607956">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>D2BB57A0-500E-C9FD-B647-A15296D5DD3D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>9007CB40-600C-C623-FB5D-255E8E2C620D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadEnStock" id="602B0A43-3C56-CBE3-FAC6-C9D62533F8AD">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>2B447708-6A4E-F115-3BC5-4B0EE46C573F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>0B21C776-02F1-F61A-7D7B-ECF21571AE2D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioVenta" id="4E74F965-DE17-2692-3146-EF494B55218F">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>43753E33-31A2-E688-02EB-EF8711F5B33D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BDB7C2B4-7FF2-11F2-1348-9CB031909F78</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioProveedor" id="CEB93872-0AD0-BDC9-784A-0515E1973384">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>34E8A4A1-65D0-BC3B-A89A-617940EF4CE3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BDB7C2B4-7FF2-11F2-1348-9CB031909F78</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8EEE2A3-9D64-9E9C-AFCA-33E94FE2AF71" name="Productos_Cod_PK">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>A18D4116-81EA-57B1-5166-77591A459F8B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24865A69-5003-38BC-9A90-600B87BB5413"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C3BC383-2A40-F09E-2CBA-44A625E12376" name="Productos_gama_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94469651-D790-DB09-8AA0-FA1A204AC131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Productos_gama_CK" directorySegmentName="seg_0" id="5AD4A480-5B9B-F354-9BD9-F91037B69F9D">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-08 10:08:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>vbgn</ownerDesignName>
+<importedID>8EC55BE2-76B4-68DB-8DCD-42DB7889C471</importedID>
+<rule>Gama=INITCAP(Gama)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

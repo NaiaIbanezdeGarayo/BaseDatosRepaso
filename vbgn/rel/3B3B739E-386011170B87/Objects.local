@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="BFA5DD19-E937-8A7F-4432-206847A94E78" name="Clientes" seqName="seg_0"/>
+   <object objectType="Table" objectID="125417FC-B840-CA49-A456-AA10D9B6059B" name="DetallePedidos" seqName="seg_0"/>
+   <object objectType="Table" objectID="F7489661-6E14-2442-81CA-4BD145A0595B" name="Empleados" seqName="seg_0"/>
+   <object objectType="Table" objectID="9BA627EB-A01E-A0F8-6BD0-F779F364A7B0" name="GamasProductos" seqName="seg_0"/>
+   <object objectType="Table" objectID="D147E84B-F0E0-E47E-F129-4002EF647DFE" name="Oficinas" seqName="seg_0"/>
+   <object objectType="Table" objectID="C776964F-D5B8-EF8F-CD99-294A3EFB6FB0" name="Pagos" seqName="seg_0"/>
+   <object objectType="Table" objectID="052096B3-7C33-1F6D-9B9B-247872A964D9" name="Pedidos" seqName="seg_0"/>
+   <object objectType="Table" objectID="1D408E96-B7BA-9C22-091A-6AC7BEE2C2FB" name="Productos" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A773B363-F811-71D8-B860-4775AF3AB248" name="Clientes_Empleados_FK" seqName="seg_0" containerID="BFA5DD19-E937-8A7F-4432-206847A94E78" refContainerID="F7489661-6E14-2442-81CA-4BD145A0595B"/>
+   <object objectType="FKIndexAssociation" objectID="0189E803-0843-7714-D8F2-D6A9EB59A701" name="DetallePedidos_Pedido_FK" seqName="seg_0" containerID="125417FC-B840-CA49-A456-AA10D9B6059B" refContainerID="052096B3-7C33-1F6D-9B9B-247872A964D9"/>
+   <object objectType="FKIndexAssociation" objectID="B7ACA052-7DEB-F935-A012-F4B789EA9D58" name="DetallePedidos_Producto_FK" seqName="seg_0" containerID="125417FC-B840-CA49-A456-AA10D9B6059B" refContainerID="1D408E96-B7BA-9C22-091A-6AC7BEE2C2FB"/>
+   <object objectType="FKIndexAssociation" objectID="9195CEE9-17A7-2054-7ADA-143258FC7DEA" name="Emple_EmpleadosFK" seqName="seg_0" containerID="F7489661-6E14-2442-81CA-4BD145A0595B" refContainerID="F7489661-6E14-2442-81CA-4BD145A0595B"/>
+   <object objectType="FKIndexAssociation" objectID="35439783-A158-9EF3-D9B7-4011C7976971" name="Emple_OficinasFK" seqName="seg_0" containerID="F7489661-6E14-2442-81CA-4BD145A0595B" refContainerID="D147E84B-F0E0-E47E-F129-4002EF647DFE"/>
+   <object objectType="FKIndexAssociation" objectID="71707434-35FA-5FF2-757C-1C58AFAE0894" name="Productos_gama_FK" seqName="seg_0" containerID="1D408E96-B7BA-9C22-091A-6AC7BEE2C2FB" refContainerID="9BA627EB-A01E-A0F8-6BD0-F779F364A7B0"/>
+   <object objectType="FKIndexAssociation" objectID="65D64C97-D43D-B3DB-0EBD-879C85B49C06" name="Pagos_cliente_FK" seqName="seg_0" containerID="C776964F-D5B8-EF8F-CD99-294A3EFB6FB0" refContainerID="BFA5DD19-E937-8A7F-4432-206847A94E78"/>
+   <object objectType="FKIndexAssociation" objectID="6FE7CEC0-832E-73DA-958D-D8724AB0A738" name="Pedidos_Cliente_FK" seqName="seg_0" containerID="052096B3-7C33-1F6D-9B9B-247872A964D9" refContainerID="BFA5DD19-E937-8A7F-4432-206847A94E78"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

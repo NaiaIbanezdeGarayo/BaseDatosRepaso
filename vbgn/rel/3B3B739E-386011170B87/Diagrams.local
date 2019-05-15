@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="6E235B6D-F36D-9024-84C8-771CC994B701" name="jardineria_oracle_corregido" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
