@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GamasProductos" directorySegmentName="seg_0" id="BB18169C-C059-6D04-610F-0C88333312AE">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DescripcionTexto" id="32886C4F-9EF5-A8E8-B0C8-86C716CB163F">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DescripcionHTML" id="399D53AB-F812-23A5-9EFA-43435E0CF510">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Imagen" id="6C4678FA-8E71-DC71-B0D0-65E7EC9FEAC9">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Gama" id="747C40D9-02C5-5C52-DD3E-AAAC0BF762C9">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GProdu_Cod_PK" id="93660D14-D031-CDAF-278B-2FAE486E5EB9">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

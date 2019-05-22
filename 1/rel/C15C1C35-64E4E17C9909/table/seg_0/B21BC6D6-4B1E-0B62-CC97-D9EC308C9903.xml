@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B21BC6D6-4B1E-0B62-CC97-D9EC308C9903" name="DetallePedidos">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>DEA86D67-9E3C-9ABD-4A0C-B5F87DF5A368</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoPedido" id="D0C4B9BA-E2AF-6708-D447-E2A0BBFE327C">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>7D0829E2-0AD8-7E54-837B-908BC0C2B728</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5A16D10E-1058-2C83-4ACE-D5AC49E81CD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4730F05-7231-9FD5-A185-D6BD73B5C9D8" referredColumn="17CE84B9-6CA3-FCEB-11B1-9E73FF4B9334"/>
+</associations>
+</Column>
+<Column name="CodigoProducto" id="00C419E2-EB79-A459-B68E-8F50AAFFEE22">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>05303623-D31A-9936-891E-3A6E35DA7A47</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9A98092E-F065-C157-DBEF-41CA150182C3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="934C7438-00E5-5C35-5E89-C86D1850324D" referredColumn="802BE612-5388-4054-6A94-0FE4F81BFF9D"/>
+</associations>
+</Column>
+<Column name="Cantidad" id="DFAAAFD2-A854-435B-CACD-38AF0D55287F">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>9C649918-5435-4EA0-659B-A9236CC9E318</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>5A16D10E-1058-2C83-4ACE-D5AC49E81CD8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioUnidad" id="7D28627D-8EB2-EED8-596D-D585C7D99039">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>03613B19-18D8-A7DF-0B2C-CC617B768D8D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>39C67B44-2B3F-E50E-4693-3A079A8DC5C5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NumeroLinea" id="6F48192F-60CA-2C6A-D33B-F15D91B7BCC7">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>3FAF84D3-C4F3-2529-A2A6-2E830474B26B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>DD6BADAC-C432-7980-3D02-96EAE2CD58DF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33F92175-D227-D89B-78C2-AEB3C28A85AD" name="DetallePedidos_Cod_PK">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>22A0FC4B-132B-36C5-AC4A-F428D1C478CD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0C4B9BA-E2AF-6708-D447-E2A0BBFE327C"/>
+<colUsage columnID="00C419E2-EB79-A459-B68E-8F50AAFFEE22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6D55504-28A2-1C6E-BFF3-343A1BD4B9DE" name="DetallePedidos_Pedido_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0C4B9BA-E2AF-6708-D447-E2A0BBFE327C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91B0D995-8F45-5127-BF15-2917CE31559C" name="DetallePedidos_Producto_FK">
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C419E2-EB79-A459-B68E-8F50AAFFEE22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

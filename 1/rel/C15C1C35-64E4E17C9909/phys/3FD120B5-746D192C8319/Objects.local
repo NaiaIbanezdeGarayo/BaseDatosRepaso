@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="100C25B7-2B6C-72DD-959A-9F8F28456893" name="Oficinas" seqName="seg_0"/>
+   <object objectType="Table" objectID="325A5779-54EB-446A-2042-1456C5B24EB1" name="Productos" seqName="seg_0"/>
+   <object objectType="Table" objectID="789362FF-317F-8B71-1C9C-76B257811D1B" name="Empleados" seqName="seg_0"/>
+   <object objectType="Table" objectID="AE917C9B-41D0-6DBB-E792-8EE33CB7CE18" name="Pedidos" seqName="seg_0"/>
+   <object objectType="Table" objectID="B21BC6D6-4B1E-0B62-CC97-D9EC308C9903" name="DetallePedidos" seqName="seg_0"/>
+   <object objectType="Table" objectID="B4B259E7-0D6A-2E95-7505-4FDC2016FFD9" name="Clientes" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB18169C-C059-6D04-610F-0C88333312AE" name="GamasProductos" seqName="seg_0"/>
+   <object objectType="Table" objectID="EF4E4C9E-3136-A9AF-FE68-296DAA554AA3" name="Pagos" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v12c.StorageDesignOraclev12c>

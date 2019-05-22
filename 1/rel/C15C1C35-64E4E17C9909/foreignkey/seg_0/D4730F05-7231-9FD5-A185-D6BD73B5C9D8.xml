@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4730F05-7231-9FD5-A185-D6BD73B5C9D8" containerWithKeyObject="B21BC6D6-4B1E-0B62-CC97-D9EC308C9903" localFKIndex="F6D55504-28A2-1C6E-BFF3-343A1BD4B9DE" name="DetallePedidos_Pedido_FK">
+<sourceDDLFile>jardineria_oracle_corregido.sql</sourceDDLFile>
+<createdBy>1gdaw06</createdBy>
+<createdTime>2019-05-22 06:41:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>1</ownerDesignName>
+<importedID>B6AFE182-7DA4-AFC9-A1ED-C1FEC4E6A5EE</importedID>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AE917C9B-41D0-6DBB-E792-8EE33CB7CE18</referredTableID>
+<keyObject>C70DA398-23E5-4AE5-0059-ED5F9A22E758</keyObject>
+<referredKeyID>C70DA398-23E5-4AE5-0059-ED5F9A22E758</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

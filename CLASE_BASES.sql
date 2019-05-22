@@ -97,6 +97,7 @@ END;
 --
 
 --EJERCICIO 8
+ALTER TRIGGER sal_emp DISABLE;
 
 CREATE OR REPLACE TRIGGER sal_emp
 AFTER UPDATE OF SALARIO
@@ -104,38 +105,42 @@ AFTER UPDATE OF SALARIO
 DECLARE
 v_nombre_emp empleados.nombre%TYPE;
 BEGIN 
-      IF pack_sal_emp.v_salario_nuevo > 3000 THEN
+      IF pack_sal_emp.v_all_col.salario > 3000 THEN
         UPDATE EMPLEADOS 
-        SET COMISION = (0.02 * pack_sal_emp.v_salario_nuevo)
-        WHERE CodigoEmpleado = pack_sal_emp.v_cod_emple;
+        SET COMISION = (0.02 * pack_sal_emp.v_all_col.salario)
+        WHERE CodigoEmpleado = pack_sal_emp.v_all_col.codigoEmpleado;
       ELSE 
         UPDATE EMPLEADOS 
-        SET COMISION = (0.05 * pack_sal_emp.v_salario_nuevo)
-        WHERE CodigoEmpleado = pack_sal_emp.v_cod_emple;
+        SET COMISION = (0.05 * pack_sal_emp.v_all_col.salario)
+        WHERE CodigoEmpleado = pack_sal_emp.v_all_col.codigoEmpleado;
         
       END IF;
 END;   
 
 ---------------------------------
+ALTER TRIGGER trigger_update_values DISABLE;
 CREATE OR REPLACE TRIGGER trigger_update_values
 AFTER UPDATE OF SALARIO ON EMPLEADOS
 FOR EACH ROW
 BEGIN
-IF UPDATING THEN
-  pack_sal_emp.v_salario_nuevo := :new.salario;
-  pack_sal_emp.v_salario_viejo := :old.salario;
-  pack_sal_emp.v_cod_emple := :old.CodigoEmpleado;
-END IF;
+-- IF UPDATING THEN
+  pack_sal_emp.v_all_col.salario := :new.salario;
+  
+  pack_sal_emp.v_all_col.codigoEmpleado := :old.CodigoEmpleado;
+--END IF;
 END; 
 
+
+
+---------------------------------------------------------------
 --VERSION 2
-CREATE OR REPLACE TRIGGER trigger_update_insert_values
+CREATE OR REPLACE TRIGGER trigger_update_insert_V2
 AFTER INSERT OR UPDATE OF SALARIO ON EMPLEADOS
 FOR EACH ROW
 BEGIN
 IF UPDATING THEN
-  pack_sal_emp.v_salario_nuevo := :new.salario;
-  pack_sal_emp.v_salario_viejo := :old.salario;
+  pack_sal_emp.v_all_col := :new.salario;
+  pack_sal_emp.v_all_col_old := :old.salario;
   pack_sal_emp.v_cod_emple := :old.CodigoEmpleado;
 ELSE 
   pack_sal_emp.v_all_col.CodigoEmpleado := :new.CodigoEmpleado;
@@ -147,20 +152,59 @@ ELSE
   pack_sal_emp.v_all_col.CodigoOficina := :new.CodigoOficina;
   pack_sal_emp.v_all_col.CodigoJefe := :new.CodigoJefe;
   pack_sal_emp.v_all_col.Puesto := :new.Puesto;
-  pack_sal_emp.v_all_col.Comision := :new.Comision;
+  -- pack_sal_emp.v_all_col.Comision := :new.Comision; ES LO QUE SE VA A INSERTAR O CAMBIAR
   pack_sal_emp.v_all_col.Salario := :new.Salario;
   
 END IF;
 END; 
 
 -----------------------------------  
+
+CREATE OR REPLACE TRIGGER sal_emp_V2
+AFTER INSERT OR UPDATE OF SALARIO
+  ON EMPLEADOS 
+DECLARE
+v_nombre_emp empleados.nombre%TYPE;
+BEGIN 
+
+      IF pack_sal_emp.v_salario_nuevo > 3000 THEN
+        UPDATE EMPLEADOS 
+        SET COMISION = (0.02 * pack_sal_emp.v_all_col)
+        WHERE CodigoEmpleado = pack_sal_emp.v_cod_emple;
+      ELSE 
+        UPDATE EMPLEADOS 
+        SET COMISION = (0.05 * pack_sal_emp.v_all_col)
+        WHERE CodigoEmpleado = pack_sal_emp.v_cod_emple;
+        
+      END IF;
+END; 
+
+
 UPDATE EMPLEADOS SET SALARIO = 2000
 WHERE CodigoEmpleado = 1;
 
-
+DELETE FROM EMPLEADOS WHERE CODIGOEMPLEADO = 33; 
 INSERT INTO empleados VALUES (33,'Naia','Joestar','Speedwagon','2442','naia.joestar@gmail.com','TAL-ES',2,'Representante Ventas',5000,null);
+INSERT INTO empleados VALUES (36,'JulenCani','Joestar','Speedwagon','2442','naia.joestar@gmail.com','TAL-ES',3,'Representante Ventas',5000,null);
 ROLLBACK;
 
 SELECT * FROM EMPLEADOS;
 
-SELECT * FROM EMPLEADOS;  
+SELECT * FROM EMPLEADOS; 
+
+desc empleados;
+
+--------------------------------------------------------
+DROP TRIGGER tri_bor_ofic;
+
+CREATE OR REPLACE TRIGGER TRI_BOR_OFICI
+BEFORE DELETE ON OFICINAS
+FOR EACH ROW
+
+  BEGIN
+        UPDATE EMPLEADOS
+        SET CODIGOOFICINA = 'SIN'
+        WHERE UPPER(CODIGOOFICINA) = UPPER(:OLD.COGIDOOFICINA);
+  END;
+        
+
